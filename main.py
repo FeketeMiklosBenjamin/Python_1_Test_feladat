@@ -5,7 +5,7 @@ def main() -> None:
         print('A megadott adattal nem lehet számolni!')
     else:
         kocka_terfogata: float = a * a * a
-        print(f'A kocka_térfogata: {kocka_terfogata}')
+        print(f'A kocka térfogata: {kocka_terfogata}')
 
     print('A kocka felszínét kiszámoló függvény!')
     a : float = float(input('a (él) = '))
@@ -13,7 +13,7 @@ def main() -> None:
         print('A megadott adattal nem lehet számolni!')
     else:
         kocka_felszine: float = 6 * a * a
-        print(f'A kocka_felszíne: {kocka_felszine}')
+        print(f'A kocka felszíne: {kocka_felszine}')
 
 
 if __name__ == "__main__":
